@@ -7,8 +7,8 @@ The chosen algorithm for this project is a basic Deep Q-Learning Agent (DQN).
 
 #### Network Architecture
 The neural network used for the model is made as follows:
-- hidden Layer 1: 64 units with relu activation
-- hidden Layer 2: 64 units with relu activation
+- First Hidden Layer: 64 units with relu activation
+- Second Hidden Layer: 64 units with relu activation
 
 #### Hyperparameters
 | Name            | Value           | Description         |
