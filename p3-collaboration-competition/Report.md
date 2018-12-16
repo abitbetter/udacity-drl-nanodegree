@@ -8,7 +8,7 @@ The chosen algorithm for this project is a Deep Deterministic Policy Gradient (D
 #### Pseudocode
 The implementation is based on the following pseucode from the paper [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf).
 
-![DDPG Pseudocode](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p3-collaboration-competition/image/ddpg%20pseudocode.png)
+![DDPG Pseudocode](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p3-collaboration-competition/image/ddpg%20pseudocode2.png)
 
 #### Network Architectures
 For the Actor:
