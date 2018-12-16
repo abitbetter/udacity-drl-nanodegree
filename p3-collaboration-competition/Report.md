@@ -6,7 +6,11 @@ Here I describe the implementation coded for solving the collaboration-competiti
 The chosen algorithm for this project is a Deep Deterministic Policy Gradient (DDPG). It is an actor-critic algorithm and uses one neural network for the actor and another for the critic.
 
 #### Pseudocode
-The implementation is based on the following pseucode from the paper [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf)
+The implementation is based on the following pseucode from the paper [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf).
+
+#### Network Architectures
+
+#### Hyperparameters
 
 ### Plot of Rewards
 
