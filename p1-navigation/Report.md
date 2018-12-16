@@ -25,7 +25,7 @@ The neural network used for the model is made as follows:
 
 
 ### Plot of Rewards
-![Navigation Rewards Plot](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p1-navigation/image/plot_rewards.png)
+![Navigation Rewards Plot](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p1-navigation/image/nav_plot_rewards.png)
 The environment was solved in 487 episodes.
 
 ### Ideas for Future Work *
