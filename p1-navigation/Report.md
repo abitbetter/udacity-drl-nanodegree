@@ -3,16 +3,17 @@
 Here I describe the implementation coded for solving the Banana Navigation environment.
 
 ### Learning Algorithm *
-The chosen algorithm for this project is a Deep Q-Learning Agent (DQN).
+The chosen algorithm for this project is a basic Deep Q-Learning Agent (DQN).
 
 #### Pseudocode *
 The implementation is based on the following pseucode from the paper [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf).
 
 ![DQN Pseudocode]()
 
-#### Network Architectures *
+#### Network Architectures
 The neural network used for the model is made as follows:
-- 
+- hidden Layer 1: 64 units with relu activation
+- hidden Layer 2: 64 units with relu activation
 
 #### Hyperparameters
 | Name            | Value           | Description         |
@@ -26,9 +27,11 @@ The neural network used for the model is made as follows:
 
 ### Plot of Rewards
 ![Navigation Rewards Plot](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p1-navigation/image/nav_plot_rewards.png)
+
 The environment was solved in 487 episodes.
 
-### Ideas for Future Work *
+### Ideas for Future Work
 As future work and ideas it can be considered to:
 - Experiment with other network sizes.
 - Experiment with other hyperparameters.
+- Go one step further and learn from pixels by using Convolutional Neural Networks (CNN).
