@@ -32,4 +32,3 @@ The environment was solved in 487 episodes.
 As future work and ideas it can be considered to:
 - Experiment with other network sizes.
 - Experiment with other hyperparameters.
-- 
