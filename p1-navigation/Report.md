@@ -2,15 +2,10 @@
 
 Here I describe the implementation coded for solving the Banana Navigation environment.
 
-### Learning Algorithm *
+### Learning Algorithm
 The chosen algorithm for this project is a basic Deep Q-Learning Agent (DQN).
 
-#### Pseudocode *
-The implementation is based on the following pseucode from the paper [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/pdf/1509.02971.pdf).
-
-![DQN Pseudocode]()
-
-#### Network Architectures
+#### Network Architecture
 The neural network used for the model is made as follows:
 - hidden Layer 1: 64 units with relu activation
 - hidden Layer 2: 64 units with relu activation
