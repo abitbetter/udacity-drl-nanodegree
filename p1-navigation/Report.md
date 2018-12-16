@@ -32,4 +32,6 @@ The environment was solved in 487 episodes.
 As future work and ideas it can be considered to:
 - Experiment with other network sizes.
 - Experiment with other hyperparameters.
+- Implement [Dueling Networks](https://arxiv.org/abs/1511.06581).
+- Implement [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952).
 - Go one step further and learn from pixels by using Convolutional Neural Networks (CNN).
