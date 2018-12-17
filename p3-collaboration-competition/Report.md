@@ -12,10 +12,12 @@ The implementation is based on the following pseucode from the paper [Continuous
 
 #### Network Architectures
 For the Actor:
-- text
+- First Hidden Layer: 400 units with relu activation
+- Second Hidden Layer: 300 units with relu activation
 
 For the Critic:
-- text
+- First Hidden Layer: 400 units with relu activation
+- Second Hidden Layer: 300 units with relu activation
 
 #### Hyperparameters
 | Name            | Value           | Description         |
@@ -34,7 +36,8 @@ For the Critic:
 
 ### Plot of Rewards
 
-The environment was solved in episodes.
+I haven't achieved it yet :( 
+
 
 ### Ideas for Future Work
 As future work and ideas it can be considered to:
