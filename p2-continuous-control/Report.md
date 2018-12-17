@@ -12,10 +12,10 @@ The implementation is based on the following pseucode from the paper [Continuous
 
 #### Network Architectures
 For the Actor:
-- text
+- Still testing
 
 For the Critic:
-- text
+- Still testing
 
 #### Hyperparameters
 | Name            | Value           | Description         |
@@ -34,7 +34,7 @@ For the Critic:
 
 ### Plot of Rewards
 
-The environment was solved in episodes.
+I haven't achieved it yet :(.
 
 ### Ideas for Future Work
 As future work and ideas it can be considered to:
