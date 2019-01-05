@@ -36,7 +36,7 @@ It should be mentioned that at the Ornstein-Uhlenbeck process, when updating the
 
 ### Plot of Rewards
 
-![Navigation Rewards Plot](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p2-continuous-control/image/nav_plot_rewards.png)
+![Navigation Rewards Plot](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p2-continuous-control/image/cont_control_plot_rewards.png)
 
 The environment was solved in 115 episodes.
 
