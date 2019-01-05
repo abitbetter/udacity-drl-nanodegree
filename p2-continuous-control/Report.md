@@ -32,7 +32,7 @@ BatchNorm1d was added before the inputs to each hidden layer on both the Actor a
 | LR_CRITIC       | 1e-3            | learning rate of the critic     |
 | WEIGHT_DECAY    | 0               | L2 weight decay     |
 
-It should be mentioned that at the Ornstein-Uhlenbeck process, when updating the internal state, a uniform random distribution and a normal random distribution where tested, having only good results with with the latter.
+It should be mentioned that at the Ornstein-Uhlenbeck process, when updating the internal state, a uniform random distribution and a normal random distribution where tested, having only good results with the latter.
 
 ### Plot of Rewards
 
