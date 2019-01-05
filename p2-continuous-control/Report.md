@@ -12,29 +12,33 @@ The implementation is based on the following pseucode from the paper [Continuous
 
 #### Network Architectures
 For the Actor:
-- Still testing
+- First Hidden Layer: 400 units with relu activation
+- Second Hidden Layer: 300 units with relu activation
 
 For the Critic:
-- Still testing
+- First Hidden Layer: 400 units with relu activation
+- Second Hidden Layer: 300 units with relu activation
+
+BatchNorm1d was added before the inputs to each hidden layer on both the Actor and the Critic.
 
 #### Hyperparameters
 | Name            | Value           | Description         |
 | -------------   |:-------------   |:-----               |
 | BUFFER_SIZE     | int(1e5)        | replay buffer size  |
-| BATCH_SIZE      | 256             | minibatch size      |
+| BATCH_SIZE      | 128             | minibatch size      |
 | GAMMA           | 0.99            | discount factor     |
 | TAU             | 1e-3            | for soft update of target parameters     |
 | LR_ACTOR        | 1e-4            | learning rate of the actor     |
 | LR_CRITIC       | 1e-3            | learning rate of the critic     |
 | WEIGHT_DECAY    | 0               | L2 weight decay     |
-| EPSILON_MAX     | 1.              | epsilon max value     |
-| EPSILON_MAX     | 0.05            | epsilon min value     |
-| EPSILON_DECAY   | .99995          | epsilon decay factor     |
 
+It should be mentioned that at the Ornstein-Uhlenbeck process, when updating the internal state, a uniform random distribution and a normal random distribution where tested, having only good results with with the latter.
 
 ### Plot of Rewards
 
-I haven't achieved it yet :(.
+![Navigation Rewards Plot](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p2-navigation/image/nav_plot_rewards.png)
+
+The environment was solved in 115 episodes.
 
 ### Ideas for Future Work
 As future work and ideas it can be considered to:
