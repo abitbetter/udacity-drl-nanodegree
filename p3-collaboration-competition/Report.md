@@ -22,21 +22,20 @@ For the Critic:
 #### Hyperparameters
 | Name            | Value           | Description         |
 | -------------   |:-------------   |:-----               |
-| BUFFER_SIZE     | int(1e6)        | replay buffer size  |
-| BATCH_SIZE      | 512             | minibatch size      |
+| BUFFER_SIZE     | int(1e5)        | replay buffer size  |
+| BATCH_SIZE      | 128             | minibatch size      |
 | GAMMA           | 0.99            | discount factor     |
 | TAU             | 1e-3            | for soft update of target parameters     |
 | LR_ACTOR        | 1e-4            | learning rate of the actor     |
 | LR_CRITIC       | 1e-3            | learning rate of the critic     |
 | WEIGHT_DECAY    | 0               | L2 weight decay     |
-| EPSILON_MAX     | 1.              | epsilon max value     |
-| EPSILON_MAX     | 0.05            | epsilon min value     |
-| EPSILON_DECAY   | .99995          | epsilon decay factor     |
 
 
 ### Plot of Rewards
 
-I haven't achieved it yet :( 
+![Comp Collab Rewards Plot](https://github.com/abitbetter/udacity-drl-nanodegree/blob/master/p3-collaboration-competition/image/plot_comp_collab.png)
+
+The environment was solved in 1689 episodes. 
 
 
 ### Ideas for Future Work
